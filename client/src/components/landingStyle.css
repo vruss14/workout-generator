@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    #dumbbell-img {
+        border-radius: none;
+        border: 3px solid #273746;
+        position: static;
+        transition: none;
+        transform: none;
+    }
+}
