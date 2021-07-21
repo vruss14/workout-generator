@@ -1,9 +1,77 @@
+/* Styling for the Landing Page (first screen) */
+
+/* Layout/image styling */
+
+#columns-container {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+  
+#landing-img-container {
+    background-color: #E27B00;
+}
+
+#landing-content {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-right: 25em;
+    flex-direction: column;
+}
+
+#landing-title {
+    font-family: 'Playfair Display SC', serif;
+}
+
+#dumbbell-img {
+    max-height: 85%;
+}
+
+/* Styling for the buttons; extends the Bulma framework */
+
+#get-started-btn {
+    margin-top: 5rem;
+}
+
+#log-in-btn:hover {
+    background-color: #E27B00;
+    color: white;
+}
+
+#get-started-btn:hover, #log-in-btn:hover {
+    transition: 0.5s ease-in-out;
+}
+  
+/* Simplifies the layout for smaller devices */
+
 @media screen and (max-width: 768px) {
-    #dumbbell-img {
-        border-radius: none;
-        border: 3px solid #273746;
-        position: static;
-        transition: none;
-        transform: none;
+
+    #landing-content-container {
+        height: 92%;
+        justify-content: center;
     }
+
+    #landing-content {
+        text-align: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    #landing-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #landing-img-container {
+        height: 50vh;
+    }
+  
+    #dumbbell-img {
+        display: none;
+    }
+
+    #log-in-btn {
+        margin-bottom: 5rem;
+    }
+    
 }

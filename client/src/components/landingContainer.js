@@ -5,24 +5,15 @@ import "./landingStyle.css";
 
 // The container for the landing page; responsible for the dual background colors
 
-function LandingContainer(props) {
-
-    const height = {
-        height: "100vh",
-        margin: 0
-    }
-
-    const orange = {
-        backgroundColor: "#E27B00"
-    }
+function LandingContainer() {
 
   return (
-      <main>
-            <div className="columns" style={height}>
-                <div className="column is-three-fifths has-background-light is-flex is-align-items-center">
+      <main id="main-container">
+            <div className="columns" id="columns-container">
+                <div className="column is-three-fifths has-background-light is-flex is-align-items-center" id="landing-content-container">
                     <LandingContent />
                 </div>
-                <div className="column is-two-fifths is-flex is-align-items-center" style={orange}>
+                <div className="column is-two-fifths is-flex is-align-items-center" id="landing-img-container">
                     <LandingImg />
                 </div>
             </div>
