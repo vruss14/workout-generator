@@ -23,6 +23,11 @@
     font-family: 'Playfair Display SC', serif;
 }
 
+#landing-description {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
 #dumbbell-img {
     max-height: 85%;
 }
