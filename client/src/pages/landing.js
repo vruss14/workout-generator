@@ -7,13 +7,16 @@ import "../components/landingStyle.css";
 
 function Landing() {
 
-    let mainStyle = { opacity: "0%" }
+    let mainStyle = { 
+        opacity: "0%", 
+        transition: "1.6s linear" 
+    }
     
     let mainAnimated = {
         opacity: "100%",
         transition: "1.6s ease-in",
     }
-    
+
     useEffect(() => {
         animatePage();
     }, []);
@@ -23,6 +26,11 @@ function Landing() {
     function animatePage() {
         setAnimate(true);
     }
+
+    window.addEventListener('beforeunload', function (e) {
+        e.preventDefault();
+        setAnimate(false)
+    });
 
     return (
         <main id="main-container" style={animate ? mainAnimated : mainStyle}>

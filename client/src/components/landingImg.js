@@ -20,7 +20,8 @@ function LandingImg() {
         position: "relative",
         left: "-52%",
         transition: "2s ease-out",
-        transform: "rotateZ(30deg)"
+        transform: "rotateZ(30deg)",
+        boxShadow: "10px 10px 20px black"
     }
 
     useEffect(() => {

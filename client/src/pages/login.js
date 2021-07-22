@@ -5,7 +5,10 @@ import LoginForm from "../components/loginform.js";
 
 function Login() {
 
-  let loginStyle = { opacity: "0%" }
+  let loginStyle = { 
+    opacity: "0%", 
+    transition: "1.6s linear"
+  }
 
   let loginAnimated = {
     opacity: "100%",
@@ -22,9 +25,15 @@ function Login() {
       setAnimate(true);
   }
 
+  window.addEventListener('beforeunload', function (e) {
+    e.preventDefault();
+    setAnimate(false)
+  });
+
   return (
       <div style={animate ? loginAnimated : loginStyle}>
         <LoginForm />
+        <a href="/"><button>RETURN HOME</button></a>
       </div>
   );
 }
