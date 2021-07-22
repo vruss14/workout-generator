@@ -5,6 +5,11 @@ import "./loginStyle.css";
 
 function LoginForm() {
 
+    function visitHome(event) {
+        event.preventDefault();
+        location.href = "/";
+      }
+
     return (
         <form className="box has-background-light" id="form-container">
 
