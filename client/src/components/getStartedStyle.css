@@ -1,0 +1,79 @@
+#start-top-div {
+    width: 100vw;
+    height: 66.6666vh
+}
+
+#start-bottom-div {
+    width: 100vw;
+    height: 33.3333vh;
+    background-color: #E27B00;
+}
+
+#get-started-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+}
+.custom-card {
+    width: 33%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 12rem;
+}
+
+.custom-card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.custom-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1150px) {
+
+    #card-container {
+        flex-direction: column;
+    }
+
+    .custom-card {
+        width: 66.6666%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #E27B00;
+    }
+
+    #start-top-div {
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #get-started-title {
+        font-size: 8vw;
+    }
+
+    #card-container {
+        flex-direction: column;
+    }
+
+    .custom-card {
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

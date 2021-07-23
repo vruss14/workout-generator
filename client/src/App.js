@@ -3,6 +3,7 @@ import "./App.css";
 import Landing from "./pages/landing.js";
 import Login from "./pages/login.js";
 import CreateAccount from "./pages/createAccount.js";
+import GetStartedPage from "./pages/getStarted";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
         <Route exact path="/create-account">
           <CreateAccount />
+        </Route>
+
+        <Route exact path="/get-started">
+          <GetStartedPage />
         </Route>
 
         {/* <Route>
