@@ -1,0 +1,70 @@
+/* Styling for the Create Account Page */
+
+/* The main container has position relative so that the form can be positioned absolutely
+and use z-index (so the form appears on top) */
+
+#main-create-account-container {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 100vh solid #E27B00;
+    border-left: 100vw solid transparent;
+    background-color: hsl(0, 0%, 96%);
+}
+
+/* Styling to ensure the form always appears at the center of the page */
+
+#create-account-form-container {
+    width: 84vw;
+    height: 84vh;
+    position: absolute;
+    left: -50vw;
+    margin-left: -42vw;
+    top: 50vh;
+    margin-top: -42vh;
+    z-index: 2;
+    border: 7px solid #273746;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* Typography styling */
+
+#create-account-form-title {
+    font-family: 'Playfair Display SC', serif;
+    text-align: right;
+    font-size: 3.5rem;
+}
+
+.custom-label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+/* Slows down the transition between colors */
+
+#create-account-submit:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+
+}
+
+/* To ensure the page is responsive for tablets/mobile devices */
+
+@media screen and (max-width: 768px) {
+
+    #create-account-form-title {
+        font-size: 7vw;
+    }
+
+    #create-account-form-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 80vw;
+        margin-left: -40vw;
+    }
+    
+}
