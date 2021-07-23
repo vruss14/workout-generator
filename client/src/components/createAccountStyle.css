@@ -4,12 +4,15 @@
 and use z-index (so the form appears on top) */
 
 #main-create-account-container {
+    background-color: hsl(0, 0%, 96%);
+}
+
+#position-relative {
     position: relative;
     width: 0;
     height: 0;
     border-bottom: 100vh solid #E27B00;
     border-left: 100vw solid transparent;
-    background-color: hsl(0, 0%, 96%);
 }
 
 /* Styling to ensure the form always appears at the center of the page */

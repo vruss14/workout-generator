@@ -38,7 +38,9 @@ function Login() {
 
   return (
       <main id="main-create-account-container" style={animate ? createAnimated : createStyle}>
-        <CreateAccountForm />
+        <div id="position-relative">
+          <CreateAccountForm />
+        </div>
       </main>
   );
 }

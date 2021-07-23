@@ -38,7 +38,9 @@ function Login() {
 
   return (
       <main id="main-login-container" style={animate ? loginAnimated : loginStyle}>
-        <LoginForm />
+        <div id="relative-div">
+          <LoginForm />
+        </div>
       </main>
   );
 }

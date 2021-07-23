@@ -95,7 +95,7 @@ function CreateAccountForm() {
             </div>
             </div>
 
-            <button className="button is-black is-outlined is-large mt-5 has-text-centered" 
+            <button className="button is-black is-outlined is-large mt-2 mb-3 has-text-centered" 
             id="create-account-submit"
             onClick={(event) => visitHome(event)}
             >CREATE ACCOUNT</button>
