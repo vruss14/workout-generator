@@ -78,7 +78,7 @@ function CreateAccountForm() {
 
             <div className="field">
             <label className="is-size-4 mt-4 mb-4 custom-label">Password</label>
-            <p className="is-size-7 mt-1 mb-5">Your password should be at least eight characters long, 
+            <p className="is-size-7 mt-1">Your password should be at least eight characters long, 
                 and include at least one uppercase letter, one lowercase letter, one number, and one special character.</p>
             
             {progressBar ? updateProgressBar() : null}
@@ -95,7 +95,7 @@ function CreateAccountForm() {
             </div>
             </div>
 
-            <button className="button is-black is-outlined is-large mt-2 mb-3 has-text-centered" 
+            <button className="button is-black is-outlined is-large mt-3 mb-3 has-text-centered" 
             id="create-account-submit"
             onClick={(event) => visitHome(event)}
             >CREATE ACCOUNT</button>
