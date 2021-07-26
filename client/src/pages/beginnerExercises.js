@@ -49,7 +49,7 @@ function BeginnerExercises() {
                 <div className="column is-one-third custom-col">
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Push-ups (kneeling)
                             </label>
                         </div>
@@ -57,7 +57,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Crunches
                             </label>
                         </div>
@@ -65,7 +65,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Shoulder taps
                             </label>
                         </div>
@@ -73,7 +73,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Stretches
                             </label>
                         </div>
@@ -81,7 +81,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Squats
                             </label>
                         </div>
@@ -89,7 +89,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Lunges
                             </label>
                         </div>
@@ -97,7 +97,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Shoulder taps
                             </label>
                         </div>
@@ -105,7 +105,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Stretches
                             </label>
                         </div>
@@ -113,7 +113,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Squats
                             </label>
                         </div>
@@ -121,7 +121,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Lunges
                             </label>
                         </div>
@@ -132,7 +132,7 @@ function BeginnerExercises() {
                 <div className="column is-one-third has-text-justified custom-col">
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Push-ups (kneeling)
                             </label>
                         </div>
@@ -140,7 +140,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Crunches
                             </label>
                         </div>
@@ -148,7 +148,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Shoulder taps
                             </label>
                         </div>
@@ -156,7 +156,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Stretches
                             </label>
                         </div>
@@ -164,7 +164,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Squats
                             </label>
                         </div>
@@ -172,7 +172,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Lunges
                             </label>
                         </div>
@@ -180,7 +180,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Shoulder taps
                             </label>
                         </div>
@@ -188,7 +188,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Stretches
                             </label>
                         </div>
@@ -196,7 +196,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Squats
                             </label>
                         </div>
@@ -204,7 +204,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Lunges
                             </label>
                         </div>
@@ -215,7 +215,7 @@ function BeginnerExercises() {
                 <div className="column is-one-third has-text-justified custom-col">
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Bicep Curls
                             </label>
                         </div>
@@ -223,7 +223,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Tricep Curls
                             </label>
                         </div>
@@ -231,7 +231,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Resistance Band Pulls
                             </label>
                         </div>
@@ -239,7 +239,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Jump Rope
                             </label>
                         </div>
@@ -247,7 +247,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Push-ups (yoga blocks)
                             </label>
                         </div>
@@ -255,7 +255,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Ab Wheel
                             </label>
                         </div>
@@ -263,7 +263,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Resistance Band Pulls
                             </label>
                         </div>
@@ -271,7 +271,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Jump Rope
                             </label>
                         </div>
@@ -279,7 +279,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Push-ups (yoga blocks)
                             </label>
                         </div>
@@ -287,7 +287,7 @@ function BeginnerExercises() {
 
                     <div className="field">
                         <div className="control">
-                            <label className="checkbox is-size-5">
+                            <label className="checkbox">
                                 <input type="checkbox" /> &nbsp; Ab Wheel
                             </label>
                         </div>

@@ -11,7 +11,7 @@ function LandingImg() {
         border: "3px solid #273746",
         position: "relative",
         left: "-52%",
-        opacity: "80%"
+        opacity: "100%"
     }
 
     let rotatedImg = {

@@ -47,49 +47,50 @@ function GetStartedPage() {
 
             <div id="card-container">
 
-            <div className="card custom-card">
-            <div className="card-image">
-                <figure className="image is-4by3">
-                <img src={SitUpImg} alt="Person doing situp" className="p-5" />
-                </figure>
-            </div>
-            <div className="card-content has-text-centered">
-                <div className="content custom-content">
-                    <p>Today, I'm looking for a slow, gentle workout.</p>
+                <div className="card custom-card" id="card-gentle">
+                    <a className="exercise-form-link" href="gentle-exercises">
+                      <div className="card-image">
+                          <figure className="image is-4by3">
+                              <img src={SitUpImg} alt="Person doing situp" className="p-5" />
+                          </figure>
+                      </div>
+                      <div className="card-content has-text-centered">
+                          <div className="content custom-content">
+                              <p>Today, I'm looking for a slow, gentle workout.</p>
+                          </div>
+                      </div>
+                    </a>
                 </div>
-            </div>
+
+                <div className="card custom-card" id="card-moderate">
+                    <div className="card-image">
+                        <figure className="image is-4by3">
+                        <img src={WeightsImg} alt="Person holding weights" className="p-5" />
+                        </figure>
+                    </div>
+                    <div className="card-content has-text-centered">
+                        <div className="content custom-content">
+                        <p>I'm looking for a workout with a moderate level of intensity today. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card custom-card" id="card-intense">
+                    <div className="card-image">
+                        <figure className="image is-4by3">
+                        <img src={PullUpImg} alt="Person doing pullup" className="p-5" />
+                        </figure>
+                    </div>
+                    <div className="card-content has-text-centered">
+                        <div className="content custom-content">
+                        <p>I want to try a more intense workout today that really pushes me.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="card custom-card">
-            <div className="card-image">
-                <figure className="image is-4by3">
-                <img src={WeightsImg} alt="Person holding weights" className="p-5" />
-                </figure>
-            </div>
-            <div className="card-content has-text-centered">
-                <div className="content custom-content">
-                <p>I'm looking for a workout with a moderate level of intensity today. 
-                    </p>
-                </div>
-            </div>
-            </div>
-
-            <div className="card custom-card">
-            <div className="card-image">
-                <figure className="image is-4by3">
-                <img src={PullUpImg} alt="Person doing pullup" className="p-5" />
-                </figure>
-            </div>
-            <div className="card-content has-text-centered">
-                <div className="content custom-content">
-                <p>I want to try a more intense workout today that really pushes me.</p>
-                </div>
-            </div>
-            </div>
           </div>
-
-          </div>
- 
 
           <div id="start-bottom-div"></div>
       </main>
