@@ -9,12 +9,12 @@ function Login() {
   // Switching the inline styling results in fade-in/fade-out animations
   let createStyle = { 
     opacity: "0%", 
-    transition: "1.6s linear"
+    transition: "1s linear"
   }
 
   let createAnimated = {
     opacity: "100%",
-    transition: "1.6s ease-in",
+    transition: "1s ease-in",
   }
 
   // The useEffect hook is used to switch styles on page load, resulting in the animation

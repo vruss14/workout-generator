@@ -9,12 +9,12 @@ function Landing() {
 
     let mainStyle = { 
         opacity: "0%", 
-        transition: "1.6s linear" 
+        transition: "1s linear" 
     }
     
     let mainAnimated = {
         opacity: "100%",
-        transition: "1.6s ease-in",
+        transition: "1s ease-in",
     }
 
     useEffect(() => {
