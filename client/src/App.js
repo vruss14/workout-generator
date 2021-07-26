@@ -5,6 +5,7 @@ import Login from "./pages/login.js";
 import CreateAccount from "./pages/createAccount.js";
 import GetStartedPage from "./pages/getStarted";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import BeginnerExercises from "./pages/beginnerExercises";
 
 function App() {
 
@@ -26,6 +27,10 @@ function App() {
 
         <Route exact path="/get-started">
           <GetStartedPage />
+        </Route>
+
+        <Route exact path="/gentle-exercises">
+          <BeginnerExercises />
         </Route>
 
         {/* <Route>
