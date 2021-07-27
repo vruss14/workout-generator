@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LoginForm from "../components/loginform.js";
-import "../components/loginStyle.css";
+import "../css/loginStyle.css";
 
 // The Log In page
 

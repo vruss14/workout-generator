@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DumbbellImg from "../images/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg"
-import "./landingStyle.css";
+import "../css/landingStyle.css";
 
 // The image for the landing page; responsible for the text
 

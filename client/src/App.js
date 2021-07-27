@@ -47,11 +47,10 @@ function App() {
         <Route exact path="/your-workout">
           <YourWorkout />
         </Route>
-
-        {/* <Route>
-          <PageNotFound />
-          <Footer />
-        </Route> */}
+        
+        <Route>
+          <Landing />
+        </Route>
 
       </Switch>
   </Router>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../components/intermediateExercises.css";
+import "../css/intermediateExercises.css";
 
 // The Intermediate Exercises Page
 

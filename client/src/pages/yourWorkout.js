@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../components/yourWorkout.css";
+import "../css/yourWorkout.css";
 
 // The page that displays the user's workout
 
@@ -55,7 +55,7 @@ function YourWorkout() {
                         <h1 className="has-text-centered pl-2 pr-2 mt-4 mb-5 custom-title">WORKOUT OVERVIEW</h1>
 
 
-                        <table className="table is-hoverable is-striped is-bordered is-fullwidth has-text-centered">
+                        <table className="table is-hoverable is-bordered is-fullwidth has-text-centered">
                             <thead>
                                 <tr>
                                     <th>Exercise</th>

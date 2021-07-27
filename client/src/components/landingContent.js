@@ -1,5 +1,5 @@
 import React from "react";
-import "./landingStyle.css";
+import "../css/landingStyle.css";
 
 // The content for the landing page; responsible for the text
 

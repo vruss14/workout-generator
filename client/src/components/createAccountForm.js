@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./createAccountStyle.css";
+import "../css/createAccountStyle.css";
 
 // The form for the Create Account Page
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../components/getStartedStyle.css";
+import "../css/getStartedStyle.css";
 import SitUpImg from "../images/exercise-situp-svgrepo-com.svg";
 import WeightsImg from "../images/exercise-dumbbells-svgrepo-com.svg";
 import PullUpImg from "../images/exercise-pullup-svgrepo-com.svg";

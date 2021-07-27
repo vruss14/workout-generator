@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../components/beginnerExercises.css";
+import "../css/beginnerExercises.css";
 
 // The Beginner Exercises Page
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CreateAccountForm from "../components/createAccountForm.js";
-import "../components/createAccountStyle.css";
+import "../css/createAccountStyle.css";
 
 // The Create Account page
 

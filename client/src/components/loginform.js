@@ -1,5 +1,5 @@
 import React from "react";
-import "./loginStyle.css";
+import "../css/loginStyle.css";
 
 // The Log In page
 

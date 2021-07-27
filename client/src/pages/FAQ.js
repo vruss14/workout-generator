@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import LandingContent from "../components/landingContent.js";
-import LandingImg from "../components/landingImg.js";
 import "../css/landingStyle.css";
 
 // The container for the landing page; responsible for the dual background colors
