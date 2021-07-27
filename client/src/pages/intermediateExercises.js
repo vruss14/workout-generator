@@ -28,6 +28,11 @@ function IntermediateExercises() {
       setAnimate(true);
   }
 
+  function generateWorkout(event) {
+    event.preventDefault();
+    window.location.href = "/your-workout";
+}
+
   // Resets animate back to the default style (goes from 100% opacity to 0%)
 
   window.addEventListener('beforeunload', function (e) {
@@ -298,7 +303,7 @@ function IntermediateExercises() {
 
             <button className="button is-black is-outlined is-large has-text-centered" 
                 id="intermediate-form-submit"
-                onClick={(event) => visitHome(event)}>CREATE MY WORKOUT
+                onClick={(event) => generateWorkout(event)}>CREATE MY WORKOUT
             </button>
 
 

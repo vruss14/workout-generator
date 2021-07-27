@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BeginnerExercises from "./pages/beginnerExercises";
 import IntermediateExercises from "./pages/intermediateExercises.js";
 import AdvancedExercises from "./pages/advancedExercises.js";
+import YourWorkout from "./pages/yourWorkout.js";
 
 function App() {
 
@@ -41,6 +42,10 @@ function App() {
 
         <Route exact path="/advanced-exercises">
           <AdvancedExercises />
+        </Route>
+
+        <Route exact path="/your-workout">
+          <YourWorkout />
         </Route>
 
         {/* <Route>

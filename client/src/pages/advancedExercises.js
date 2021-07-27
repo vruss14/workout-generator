@@ -35,6 +35,11 @@ function AdvancedExercises() {
     setAnimate(false)
   });
 
+  function generateWorkout(event) {
+    event.preventDefault();
+    window.location.href = "/your-workout";
+  }
+
   return (
       <main id="main-advanced-container" style={animate ? advancedPageAnimated : advancedPage}>
           <div id="advanced-top-div" className="has-background-light">
@@ -298,7 +303,7 @@ function AdvancedExercises() {
 
             <button className="button is-black is-outlined is-large has-text-centered" 
                 id="advanced-form-submit"
-                onClick={(event) => visitHome(event)}>CREATE MY WORKOUT
+                onClick={(event) => generateWorkout(event)}>CREATE MY WORKOUT
             </button>
 
 
