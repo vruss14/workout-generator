@@ -1,0 +1,43 @@
+#columns-container {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+#orange-container {
+    background-color: #E27B00;
+}
+
+#faq-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+#light-container {
+    overflow-y: scroll;
+    padding-right: 4rem;
+}
+
+#questions-container {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.question {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+.answer {
+    margin-bottom: 4%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-top: 0.75%;
+}

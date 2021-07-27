@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Landing from "./pages/landing.js";
 import Login from "./pages/login.js";
 import CreateAccount from "./pages/createAccount.js";
@@ -9,6 +8,16 @@ import BeginnerExercises from "./pages/beginnerExercises";
 import IntermediateExercises from "./pages/intermediateExercises.js";
 import AdvancedExercises from "./pages/advancedExercises.js";
 import YourWorkout from "./pages/yourWorkout.js";
+import FAQ from "./pages/FAQ.js";
+
+// FontAwesome imports (carets for FAQ page)
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
+
+import "./App.css";
+
+library.add(fab, faPlus, faMinus);
 
 function App() {
 
@@ -47,6 +56,13 @@ function App() {
         <Route exact path="/your-workout">
           <YourWorkout />
         </Route>
+
+        <Route exact path="/frequently-asked-questions">
+          <FAQ />
+        </Route>
+
+
+
         
         <Route>
           <Landing />
