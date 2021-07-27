@@ -4,8 +4,6 @@ import SitUpImg from "../images/exercise-situp-svgrepo-com.svg";
 import WeightsImg from "../images/exercise-dumbbells-svgrepo-com.svg";
 import PullUpImg from "../images/exercise-pullup-svgrepo-com.svg";
 
-
-
 // The Get Started page
 
 function GetStartedPage() {
@@ -63,33 +61,36 @@ function GetStartedPage() {
                 </div>
 
                 <div className="card custom-card" id="card-moderate">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src={WeightsImg} alt="Person holding weights" className="p-5" />
-                        </figure>
-                    </div>
-                    <div className="card-content has-text-centered">
-                        <div className="content custom-content">
-                        <p>I'm looking for a workout with a moderate level of intensity today. 
-                            </p>
+                    <a className="exercise-form-link" href="/moderate-exercises">
+                        <div className="card-image">
+                            <figure className="image is-4by3">
+                            <img src={WeightsImg} alt="Person holding weights" className="p-5" />
+                            </figure>
                         </div>
-                    </div>
+                        <div className="card-content has-text-centered">
+                            <div className="content custom-content">
+                            <p>I'm looking for a workout with a moderate level of intensity today. 
+                                </p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div className="card custom-card" id="card-intense">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src={PullUpImg} alt="Person doing pullup" className="p-5" />
-                        </figure>
-                    </div>
-                    <div className="card-content has-text-centered">
-                        <div className="content custom-content">
-                        <p>I want to try a more intense workout today that really pushes me.</p>
+                    <a className="exercise-form-link" href="/advanced-exercises">
+                        <div className="card-image">
+                            <figure className="image is-4by3">
+                            <img src={PullUpImg} alt="Person doing a pullup" className="p-5" />
+                            </figure>
                         </div>
-                    </div>
+                        <div className="card-content has-text-centered">
+                            <div className="content custom-content">
+                            <p>I want to try a more intense workout today that really pushes me.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-
           </div>
 
           <div id="start-bottom-div"></div>

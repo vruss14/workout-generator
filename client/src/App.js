@@ -6,6 +6,8 @@ import CreateAccount from "./pages/createAccount.js";
 import GetStartedPage from "./pages/getStarted";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BeginnerExercises from "./pages/beginnerExercises";
+import IntermediateExercises from "./pages/intermediateExercises.js";
+import AdvancedExercises from "./pages/advancedExercises.js";
 
 function App() {
 
@@ -31,6 +33,14 @@ function App() {
 
         <Route exact path="/gentle-exercises">
           <BeginnerExercises />
+        </Route>
+
+        <Route exact path="/moderate-exercises">
+          <IntermediateExercises />
+        </Route>
+
+        <Route exact path="/advanced-exercises">
+          <AdvancedExercises />
         </Route>
 
         {/* <Route>
