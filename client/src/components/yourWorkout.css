@@ -1,0 +1,76 @@
+/* Styling for the Landing Page (first screen) */
+
+/* Layout/image styling */
+
+#columns-container {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+  
+#workout-orange-container {
+    background-color: #E27B00;
+}
+
+#exercise-container {
+    width: 80%;
+    height: 90%;
+    background-color: hsl(0, 0%, 96%);
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow-y: scroll;
+    box-shadow: 5px 5px 10px black;
+}
+
+.custom-title {
+    font-family: 'Playfair Display SC', serif;    
+    font-size: 48px;
+}
+
+th {
+    font-size: 24px;
+}
+
+td {
+    font-size: 20px;
+}
+
+tfoot {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#timer-container {
+    width: 80%;
+    height: 90%;
+    background-color: hsl(0, 0%, 96%);;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow-y: scroll;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#start-workout-btn {
+    width: 90%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#start-workout-btn:hover {
+    transition: 0.5s ease-in-out;
+}
+  
+/* Simplifies the layout for smaller devices */
+
+@media screen and (max-width: 768px) {
+
+
+    #workout-orange-container, #workout-light-container {
+        height: 50vh;
+    }
+    
+}
