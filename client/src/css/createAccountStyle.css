@@ -5,6 +5,7 @@ and use z-index (so the form appears on top) */
 
 #main-create-account-container {
     background-color: hsl(0, 0%, 96%);
+    overflow: hidden;
 }
 
 #position-relative {
@@ -66,8 +67,16 @@ and use z-index (so the form appears on top) */
     #create-account-form-container {
         padding-left: 2rem;
         padding-right: 2rem;
-        width: 80vw;
-        margin-left: -40vw;
+        width: 90vw;
+        height: 92vh;
+        margin-left: -45vw;
+        margin-top: -46vh;
+
+        overflow-y: scroll;
+    }
+
+    .custom-descr {
+        white-space: pre-wrap;
     }
     
 }

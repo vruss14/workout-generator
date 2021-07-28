@@ -78,7 +78,7 @@ function CreateAccountForm() {
 
             <div className="field">
             <label className="is-size-4 mt-4 mb-4 custom-label">Password</label>
-            <p className="is-size-7 mt-1">Your password should be at least eight characters long, 
+            <p className="is-size-7 mt-1 custom-descr">Your password should be at least eight characters long, 
                 and include at least one uppercase letter, one lowercase letter, one number, and one special character.</p>
             
             {progressBar ? updateProgressBar() : null}
