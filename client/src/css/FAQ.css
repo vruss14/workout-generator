@@ -1,4 +1,4 @@
-
+/* The container holding the questions/answers can scroll if needed */
 
 #columns-container {
     height: 100vh;
@@ -52,10 +52,10 @@
     margin-right: 2rem;
 }
 
+/* Responsive styling */
+
 @media screen and (max-width: 768px) {
     #orange-container {
         height: 10vh;
     }
-
-    
 }

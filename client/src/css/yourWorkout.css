@@ -23,7 +23,6 @@
 }
 
 .custom-title {
-    /* font-family: 'Playfair Display SC', serif;     */
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 48px;
@@ -41,6 +40,8 @@ tfoot {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* Holds the ten minute countdown timer */
 
 #timer-container {
     width: 80%;
@@ -69,7 +70,6 @@ tfoot {
 /* Simplifies the layout for smaller devices */
 
 @media screen and (max-width: 768px) {
-
 
     #workout-orange-container, #workout-light-container {
         height: 50vh;
