@@ -22,7 +22,8 @@ function LandingContainer() {
             <h1 className="is-size-1 has-text-weight-bold is-flex mt-3" id="landing-title">Workout Generator</h1>
             <h2 className="is-size-4 mt-3 mb-3" id="landing-description">
                 A simple solution for building healthy exercise habits. 
-                Ten minute workouts for all skill levels.</h2>
+                Ten minute workouts for all skill levels. Start generating your workout right away, log in
+                to your dashboard, or view frequently asked questions below.</h2>
 
             <button className="button is-black is-outlined is-large" id="get-started-btn"
             onClick={() => visitGetStarted()}>GET STARTED</button>
@@ -31,7 +32,7 @@ function LandingContainer() {
             onClick={() => visitLogin()}>LOG IN</button>
 
             <button className="button is-black is-outlined mt-5 is-large" id="questions-btn"
-            onClick={() => visitFAQ()}>FREQUENTLY ASKED QUESTIONS</button>
+            onClick={() => visitFAQ()}>FAQ</button>
 
       </section>
   );
