@@ -32,6 +32,10 @@ function FAQ() {
         setAnimate(false)
     });
 
+    function visitGetStarted() {
+        location.href = "/get-started";
+      }
+
     return (
         <main id="main-faq-container" style={animate ? FAQAnimated : FAQStyle}>
             <div className="columns" id="columns-container">
@@ -44,7 +48,12 @@ function FAQ() {
                         <Question />
                         <Question />
                         <Question />
+
+                        <button className="button is-black is-outlined is-large" id="start-btn"
+                    onClick={() => visitGetStarted()}>GET STARTED</button>
                     </div>
+
+
                 </div>
             </div>
         </main>

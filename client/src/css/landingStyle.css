@@ -43,7 +43,7 @@
     color: white;
 }
 
-#get-started-btn:hover, #log-in-btn:hover {
+#get-started-btn:hover, #log-in-btn:hover, #questions-btn:hover {
     transition: 0.5s ease-in-out;
 }
   

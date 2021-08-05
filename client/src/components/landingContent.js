@@ -10,7 +10,11 @@ function LandingContainer() {
   }
 
   function visitGetStarted() {
-    location.href = "/get-started"
+    location.href = "/get-started";
+  }
+
+  function visitFAQ() {
+    location.href = "/frequently-asked-questions";
   }
 
   return (
@@ -19,12 +23,15 @@ function LandingContainer() {
             <h2 className="is-size-4 mt-3 mb-3" id="landing-description">
                 A simple solution for building healthy exercise habits. 
                 Ten minute workouts for all skill levels.</h2>
-            <button className="button is-black is-outlined is-large" 
-            id="get-started-btn"
+
+            <button className="button is-black is-outlined is-large" id="get-started-btn"
             onClick={() => visitGetStarted()}>GET STARTED</button>
-            <button className="button is-black is-outlined is-large mt-5" 
-            id="log-in-btn"
+
+            <button className="button is-black is-outlined is-large mt-5" id="log-in-btn"
             onClick={() => visitLogin()}>LOG IN</button>
+
+            <button className="button is-black is-outlined mt-5 is-large" id="questions-btn"
+            onClick={() => visitFAQ()}>FREQUENTLY ASKED QUESTIONS</button>
 
       </section>
   );
