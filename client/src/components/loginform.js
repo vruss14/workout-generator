@@ -5,9 +5,9 @@ import "../css/loginStyle.css";
 
 function LoginForm() {
 
-    function visitHome(event) {
+    function visitDashboard(event) {
         event.preventDefault();
-        location.href = "/";
+        location.href = "/dashboard";
       }
 
     return (
@@ -33,7 +33,7 @@ function LoginForm() {
 
             <button className="button is-black is-outlined is-large mt-5 has-text-centered" 
             id="log-in-submit"
-            onClick={(event) => visitHome(event)}
+            onClick={(event) => visitDashboard(event)}
             >LOG IN</button>
 
             <p className="is-size-6 mt-3 mb-3">Forgot your username or password? Click <a href="#">HERE</a>.</p>

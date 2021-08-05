@@ -9,6 +9,7 @@ import IntermediateExercises from "./pages/intermediateExercises.js";
 import AdvancedExercises from "./pages/advancedExercises.js";
 import YourWorkout from "./pages/yourWorkout.js";
 import FAQ from "./pages/FAQ.js";
+import Dashboard from "./pages/dashboard.js";
 
 // FontAwesome imports (carets for FAQ page)
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -61,9 +62,10 @@ function App() {
           <FAQ />
         </Route>
 
+        <Route exact path="/dashboard">
+          <Dashboard />
+        </Route>
 
-
-        
         <Route>
           <Landing />
         </Route>
