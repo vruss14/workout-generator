@@ -29,11 +29,11 @@
 }
 
 th {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 td {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 tfoot {
@@ -81,6 +81,7 @@ tfoot {
     margin-top: 10vh;
     margin-bottom: 10vh;
     font-size: 84px;
+    text-align: center;
 
 }
   

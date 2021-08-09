@@ -31,6 +31,17 @@ function YourWorkout() {
         setAnimate(false)
     });
 
+    const [showTimer, setShowTimer] = useState(false)
+
+    function startTimer() {
+
+        if(showTimer) {
+            setShowTimer(false)
+        }
+
+        setShowTimer(true);
+    }
+
     return (
         <main id="main-workout-container" style={animate ? yourWorkoutAnimated : yourWorkoutStyle}>
             <div className="columns" id="columns-container">
@@ -76,7 +87,7 @@ function YourWorkout() {
                             </tbody>
                             </table>
 
-                        <h2 className="has-text-centered pl-2 pr-2 mt-5 mb-5 custom-title">You've got this!</h2>
+                        <h2 className="has-text-centered pl-2 pr-2 mt-5 mb-5 custom-title">You've got this! 💪</h2>
                     </div>
                 </div>
 
@@ -86,9 +97,10 @@ function YourWorkout() {
                         <button className="button is-black is-outlined is-large" id="start-workout-btn"
                         onClick={() => startTimer()}>START</button>
 
-                        <div id="circle-timer-container">
-                            <CircleTimer />
-                        </div>
+                        {showTimer ? 
+                            <div id="circle-timer-container">
+                                <CircleTimer />
+                            </div> : null }
                     </div>
                 </div>
 
