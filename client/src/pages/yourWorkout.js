@@ -50,7 +50,6 @@ function YourWorkout() {
                     <div id="exercise-container">
                         <h1 className="has-text-centered pl-2 pr-2 mt-4 mb-5 custom-title">WORKOUT OVERVIEW</h1>
 
-
                         <table className="table is-bordered is-fullwidth has-text-centered">
                             <thead>
                                 <tr>
@@ -64,7 +63,7 @@ function YourWorkout() {
                                 </tr>  
                             </tfoot>
                             <tbody>
-                                <tr id="first-row" className="custom-select">
+                                <tr id="first-row">
                                     <td>Pushup</td>
                                     <td>1 minute</td>
                                 </tr>

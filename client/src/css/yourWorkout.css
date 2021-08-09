@@ -29,11 +29,11 @@
 }
 
 th {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 td {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 tfoot {
@@ -72,17 +72,11 @@ tfoot {
     font-weight: 300;
 }
 
-.custom-select {
-    background-color: #000000;
-    color: white;
-}
-
 #circle-timer-container {
     margin-top: 10vh;
     margin-bottom: 10vh;
     font-size: 84px;
     text-align: center;
-
 }
   
 /* Simplifies the layout for smaller devices */
@@ -91,6 +85,32 @@ tfoot {
 
     #workout-orange-container, #workout-light-container {
         height: 50vh;
+    }
+
+    th {
+        font-size: 24px;
+    }
+    
+    td {
+        font-size: 20px;
+    }
+
+    .custom-title {
+        display: none;
+    }
+
+    #start-workout-btn {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        font-size: 18px;
+        width: 50%;
+    }
+
+    #circle-timer-container {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 56px;
+        text-align: center;
     }
     
 }

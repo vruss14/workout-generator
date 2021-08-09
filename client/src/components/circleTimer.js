@@ -3,7 +3,7 @@ import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 function CircleTimer() {
 
     const style = {
-        fontSize: "36px"
+        fontSize: "28px"
     }
 
     const largeStyle = {
@@ -25,18 +25,17 @@ function CircleTimer() {
 
     let count = 0;
 
-
     // The timer is 60 seconds long and will repeat 10 times (i.e. 10 minutes) then stop repeating
 
     return (
         <CountdownCircleTimer
         duration={60}
-        size={400}
+        size={300}
         isPlaying
         onComplete={() => {
             if(count < 10) {
                 count++
-                return [true, 1500] // repeat animation in 1.5 seconds
+                return [true, 2000] // repeats the timer after two seconds
             }
             return false;
         }}
