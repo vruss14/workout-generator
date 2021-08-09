@@ -13,10 +13,10 @@
 }
 
 #exercise-container {
-    width: 80%;
+    width: 90%;
     height: 90%;
     background-color: hsl(0, 0%, 96%);
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     overflow-y: scroll;
     box-shadow: 5px 5px 10px black;
@@ -44,10 +44,10 @@ tfoot {
 /* Holds the ten minute countdown timer */
 
 #timer-container {
-    width: 80%;
+    width: 90%;
     height: 90%;
     background-color: hsl(0, 0%, 96%);;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     overflow-y: scroll;
     box-shadow: 5px 5px 10px black;
@@ -65,6 +65,23 @@ tfoot {
 
 #start-workout-btn:hover {
     transition: 0.5s ease-in-out;
+}
+
+#time-left {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.custom-select {
+    background-color: #000000;
+    color: white;
+}
+
+#circle-timer-container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 84px;
+
 }
   
 /* Simplifies the layout for smaller devices */
