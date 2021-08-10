@@ -48,7 +48,8 @@
 .page-descr {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.25rem;
-    font-weight: 400;}
+    font-weight: 400;
+}
 
 .custom-label {
     font-family: Helvetica, Arial, sans-serif;
@@ -141,11 +142,16 @@
     #intermediate-form-container {
         padding-left: 0.5rem;
         padding-right: 2rem;
-        width: 80vw;
+        width: 95vw;
         height: 60vh;
-        margin-top: -13vh;
-        margin-left: -40vw;
+        margin-top: -15vh;
+        margin-left: -47.5vw;
         overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    #intermediate-pg-descr {
+        font-size: 1rem;
     }
 
     #intermediate-form-submit {

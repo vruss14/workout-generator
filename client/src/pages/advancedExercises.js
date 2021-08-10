@@ -44,7 +44,7 @@ function AdvancedExercises() {
       <main id="main-advanced-container" style={animate ? advancedPageAnimated : advancedPage}>
           <div id="advanced-top-div" className="has-background-light">
             <h1 className="pt-5 has-text-centered" id="advanced-title">Which of these exercises would be okay to include in your workout?</h1>
-            <p className="has-text-centered ml-3 mr-3 pl-3 pr-3 page-descr">*Please select at least five exercises to ensure your workout has enough variety.</p>
+            <p className="has-text-centered ml-3 mr-3 pl-3 pr-3 page-descr" id="advanced-pg-descr">*Please select at least five exercises to ensure your workout has enough variety.</p>
           </div>
 
           <form className="box has-background-light has-text-centered" id="advanced-form-container">
