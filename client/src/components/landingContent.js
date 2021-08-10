@@ -20,7 +20,7 @@ function LandingContainer() {
   return (
       <section className="is-flex is-flex-wrap-wrap" id="landing-content">
             <h1 className="is-size-1 has-text-weight-bold is-flex mt-3" id="landing-title">Workout Generator</h1>
-            <h2 className="is-size-4 mt-3 mb-3" id="landing-description">
+            <h2 className="mt-3 mb-3" id="landing-description">
                 A simple solution for building healthy exercise habits. 
                 Ten minute workouts for all skill levels. Start generating your workout right away, log in
                 to your dashboard, or view frequently asked questions below.</h2>

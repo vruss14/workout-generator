@@ -29,6 +29,7 @@ function CreateAccountForm() {
         if(!userObject.password) {
             return;
         }
+        
         if(userObject.password.length <=8) {
             return (
                 <div>

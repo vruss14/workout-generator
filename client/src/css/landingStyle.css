@@ -26,6 +26,7 @@
 #landing-description {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 300;
+    font-size: 1.5rem;
 }
 
 #dumbbell-img {
@@ -52,7 +53,6 @@
 @media screen and (max-width: 768px) {
 
     #landing-content-container {
-        height: 92%;
         justify-content: center;
     }
 
@@ -60,6 +60,7 @@
         text-align: center;
         justify-content: center;
         padding-right: 0;
+        font-size: 16px;
     }
 
     #landing-title {
@@ -67,8 +68,12 @@
         margin-right: auto;
     }
 
+    #landing-description {
+        font-size: 5vw;
+    }
+
     #landing-img-container {
-        height: 50vh;
+        height: 25vh;
     }
   
     #dumbbell-img {

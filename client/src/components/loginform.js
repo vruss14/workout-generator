@@ -8,7 +8,7 @@ function LoginForm() {
     function visitDashboard(event) {
         event.preventDefault();
         location.href = "/dashboard";
-      }
+    }
 
     return (
         <form className="box has-background-light" id="form-container">
