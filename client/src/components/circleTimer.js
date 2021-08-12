@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 
 function CircleTimer() {
@@ -23,6 +24,33 @@ function CircleTimer() {
         );
     };
 
+    // Responsiveness; check the browser width before rendering the circleTimer component
+
+    const [timerSize, setTimerSize] = useState(400);
+
+    function changeSize() {
+
+      if(window.innerWidth < 592) {
+        setTimerSize(250);
+        return 250;
+      } else if (window.innerWidth < 768) {
+        setTimerSize(300);
+        return 300;
+      } else if (window.innerWidth < 850) {
+        setTimerSize(250);
+        return 250;
+      } else if (window.innerWidth < 1050) {
+        setTimerSize(300)
+        return 300;
+      } else {
+        setTimerSize(400);
+        return 400;
+      }
+    }
+
+    // Updates size if the user changes the browser viewport width
+    window.addEventListener('resize', changeSize);
+
     let count = 0;
 
     // The timer is 60 seconds long and will repeat 10 times (i.e. 10 minutes) then stop repeating
@@ -30,7 +58,8 @@ function CircleTimer() {
     return (
         <CountdownCircleTimer
         duration={60}
-        size={300}
+        size={timerSize}
+        // size={window.innerWidth < 768 ? 200 : 400}
         isPlaying
         onComplete={() => {
             if(count < 10) {
