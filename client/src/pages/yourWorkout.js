@@ -18,6 +18,7 @@ function YourWorkout() {
 
     useEffect(() => {
         animatePage();
+        renderModal();
     }, []);
     
     const [animate, setAnimate] = useState(false)
@@ -39,11 +40,50 @@ function YourWorkout() {
             setShowTimer(false)
         }
 
+        // Disables the start button after it has been pressed
+        document.getElementById("start-workout-btn").disabled = true;
+
         setShowTimer(true);
     }
 
+    function renderModal() {
+        document.querySelector(".modal").classList.add("is-active");
+    }
+    
+    function removeModal() {
+        document.querySelector(".modal").classList.remove("is-active");
+    }
+
+    // Allows a user to click anywhere on the page for the modal to disappear
+    function exitModal() {
+        if(document.querySelector(".modal").classList.contains("is-active")) {
+            document.querySelector(".modal").classList.remove("is-active")
+        }
+    }
+
+    document.body.addEventListener("click", exitModal)
+
     return (
         <main id="main-workout-container" style={animate ? yourWorkoutAnimated : yourWorkoutStyle}>
+
+            <div className="modal">
+                <div className="modal-background"></div>
+                    <div className="modal-card">
+                    <header className="modal-card-head has-text-centered p-5">
+                        <p className="modal-card-title" id="modal-title">Your workout has been generated! 🎉 </p>
+                        <button id="close-btn" className="delete" aria-label="close" onClick={() => removeModal()}></button>
+                    </header>
+                    <section className="modal-card-body" id="modal-text">
+                        Preview the exercises on the left side of the page.
+                        When you are ready, start the timer by pressing the "Start" button on the right side of the page.
+                        The timer will count down ten times from 60 seconds, once for each exercise. 
+                    </section>
+                    <footer className="modal-card-foot is-flex is-justify-content-center">
+                        <button id="okay-btn" className="button has-text-centered" onClick={() => removeModal()}>Okay! Let's go!</button>
+                    </footer>
+                </div>
+            </div>
+
             <div className="columns" id="columns-container">
 
                 <div className="column is-one-half is-flex is-align-items-center is-justify-content-center" id="workout-orange-container">
