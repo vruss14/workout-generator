@@ -47,6 +47,10 @@ and use z-index (so the form appears on top) */
     font-weight: 300;
 }
 
+.custom-descr {
+    white-space: pre-wrap;
+}
+
 /* Slows down the transition between colors */
 
 #create-account-submit:hover {
@@ -73,10 +77,5 @@ and use z-index (so the form appears on top) */
         margin-top: -46vh;
 
         overflow-y: scroll;
-    }
-
-    .custom-descr {
-        white-space: pre-wrap;
-    }
-    
+    }  
 }
